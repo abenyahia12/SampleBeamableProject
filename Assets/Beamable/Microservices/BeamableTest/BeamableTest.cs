@@ -1,6 +1,6 @@
 using Beamable.Server;
 
-namespace Beamable.Server
+namespace Beamable.Server.BeamableTest
 {
    [Microservice("BeamableTest")]
    public class BeamableTest : Microservice

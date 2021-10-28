@@ -15,13 +15,13 @@ namespace Beamable.Server.Clients
     using Beamable.Server;
     
     
-    /// <summary> A generated client for <see cref="Beamable.Server.BeamableTest"/> </summary
+    /// <summary> A generated client for <see cref="Beamable.Server.BeamableTest.BeamableTest"/> </summary
     public sealed class BeamableTestClient : Beamable.Server.MicroserviceClient
     {
         
         /// <summary>
         /// Call the ServerCall method on the BeamableTest microservice
-        /// <see cref="Beamable.Server.BeamableTest.ServerCall"/>
+        /// <see cref="Beamable.Server.BeamableTest.BeamableTest.ServerCall"/>
         /// </summary>
         public Beamable.Common.Promise<Beamable.Common.Unit> ServerCall()
         {
